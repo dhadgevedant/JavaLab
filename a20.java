@@ -25,12 +25,11 @@ class a20 {
         // if (a > b) // This line would cause a syntax error if 'a' and 'b' are not defined
         // System.out.println("a is greater");
 
-        // Corrected code for demonstration
         int x = 10;
         int y = 20;
         if (x < y) {
             System.out.println("x is less than y");
-        }
+        }  
         
         try{
             int[] arr = new int[5];
@@ -40,3 +39,4 @@ class a20 {
         }
     }
 }
+
