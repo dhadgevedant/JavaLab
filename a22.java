@@ -29,6 +29,9 @@ class a22 {
         } catch (ArithmeticException e) {
             System.out.println("Exception caught: " + e.getMessage());
         }
+        finally{
+            System.out.println("The TRY is finished");
+        }
 
     }
 }
